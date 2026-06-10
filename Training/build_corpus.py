@@ -5,13 +5,6 @@
 Композиція: 400 людських + 400 згенерованих ШІ.
 Фільтрація: мінімум 100 слів, максимум 2000 слів на текст.
 
-Запуск:
-    python build_corpus.py
-
-Виходи (в папці training_corpus/):
-    corpus.csv          — мета-таблиця (id, label, source, language, ...)
-    texts/text_NNNN.txt — самі тексти у файлах для аудиту
-    MANIFEST.json       — підсумок збору + контрольна сума корпусу
 """
 
 import csv

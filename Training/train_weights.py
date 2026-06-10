@@ -12,13 +12,6 @@
 
 Валідація: 5-кратна стратифікована перехресна перевірка з
 обчисленням AUC ROC, F1, Precision, Recall.
-
-Запуск:
-    python train_weights.py
-
-Виходи (в папці training_corpus/):
-    weights.json         — навчені ваги та статистики стандартизації
-    training_report.txt  — детальний звіт про навчання
 """
 
 import csv
